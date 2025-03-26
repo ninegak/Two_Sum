@@ -13,11 +13,11 @@ std::vector<int> twoSum(std::vector<int>& nums, int target) {
                 return {numMap[complement], i};
             }
 
-            // Store the current number and its index in the map
+            // Store the current number and index in map
             numMap[nums[i]] = i;
         }
 
-        return {}; // Should never reach here as per problem constraints
+        return {}; 
     }
 
 int main() {
